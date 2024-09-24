@@ -14,26 +14,49 @@ body {
 
 /* First Section - Full-Height Image */
 .front-section {
+    position: relative;
     background-image: url('Front.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
-    flex-direction: column; /* Stack h1 and p vertically */
+    flex-direction: column; /* Stack items vertically */
     justify-content: center;
     align-items: center;
     color: #fff;
     text-align: center;
 }
 
+.front-section h1,
+.front-section p {
+    position: relative;
+    z-index: 2;
+}
+
 .front-section h1 {
     font-size: 50px;
-    margin-bottom: 20px; /* Add spacing between h1 and p */
+    margin-bottom: 20px;
 }
 
 .front-section p {
     font-size: 50px;
 }
+
+/* Add this media query to adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .front-section h1 {
+        font-size: 35px; /* Decrease font size on mobile */
+    }
+    
+    .front-section p {
+        font-size: 28px; /* Adjust font size for better readability */
+    }
+    
+    .front-section {
+        padding: 0 10px; /* Add some padding for smaller screens */
+    }
+}
+
 
 /* Rest of the Website - Content Styling */
 .rest-section {
