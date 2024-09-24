@@ -7,7 +7,7 @@ body {
 
 /* Apply repeating background to the entire body */
 body {
-    background-image: url('Rest.jpg');
+    background-image: url('Rest.jpeg');
     background-repeat: repeat;
     background-position: center;
 }
@@ -58,6 +58,7 @@ body {
 }
 
 
+
 /* Rest of the Website - Content Styling */
 .rest-section {
     padding: 50px;
@@ -79,7 +80,7 @@ body {
 /* Event Box Styles */
 /* Event Box 1 */
 .event-box {
-    background-image: url('Kasra.jpeg'); /* Image for KASRA CLASH */
+    background-image: url('Kasra.jpg'); /* Image for KASRA CLASH */
     background-position: center; /* Center the background image */
     background-size: cover; /* Ensure the image covers the entire box */
     padding: 40px;
@@ -160,7 +161,7 @@ body {
 
 /* Event Box 3 */
 .event-box2 {
-    background-image: url('others.jpg'); /* Image for TechnoJam */
+    background-image: url('Technojam.png'); /* Image for TechnoJam */
     background-position: center; /* Center the background image */
     background-size: cover; /* Ensure the image covers the entire box */
     padding: 40px;
@@ -170,7 +171,7 @@ body {
     max-width: 1200px;
     height: 200px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,7 +201,7 @@ body {
 
 /* Event Box 4 */
 .event-box3 {
-    background-image: url('others.jpg'); /* Image for Reflection Rush */
+    background-image: url('Reflection.jpeg'); /* Image for Reflection Rush */
     background-position: center; /* Center the background image */
     background-size: cover; /* Ensure the image covers the entire box */
     padding: 40px;
@@ -210,7 +211,7 @@ body {
     max-width: 1200px;
     height: 200px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
