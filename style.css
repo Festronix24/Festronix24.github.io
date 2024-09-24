@@ -19,6 +19,7 @@ body {
     background-position: center;
     height: 100vh;
     display: flex;
+    flex-direction: column; /* Stack h1 and p vertically */
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -26,6 +27,11 @@ body {
 }
 
 .front-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px; /* Add spacing between h1 and p */
+}
+
+.front-section p {
     font-size: 50px;
 }
 
