@@ -57,7 +57,19 @@ body {
     }
 }
 
-
+.below-section {
+    position: relative;
+    background-image: url('Below.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
 
 /* Rest of the Website - Content Styling */
 .rest-section {
