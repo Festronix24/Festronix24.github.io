@@ -61,6 +61,7 @@ body {
     position: relative;
     background-image: url('Below.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 110vh;
     display: flex;
@@ -69,6 +70,15 @@ body {
     align-items: center;
     color: #fff;
     text-align: center;
+}
+
+@media (max-width: 768px) { /* For phone and smaller tablet views */
+    .below-section {
+        background-size: contain; /* Ensure the image is fully visible in mobile */
+        height: auto; /* Let the height adjust based on image size */
+        min-height: 100vh; /* Ensure it occupies at least full screen height */
+        padding: 20px; /* Add some padding to avoid content touching edges */
+    }
 }
 
 /* Rest of the Website - Content Styling */
